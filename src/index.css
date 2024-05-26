@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
-    font-family: 'Poppins';
-} 
+  font-family: "Poppins";
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-block: 10rem;
+}
