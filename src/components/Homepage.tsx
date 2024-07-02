@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <div
         id="HOME"
-        className="h-[100vh] flex justify-center w-auto lg:w-[99%]"
+        className=" flex pb-5 justify-center w-auto lg:w-[99%]"
         style={{ background: `url(${img})` }}
       >
         <div className="bg-[#019147] mt-100 w-[95%] h-[706px] relative top-10 rounded-2xl">
@@ -17,21 +17,21 @@ const Home = () => {
             </span>
           </div>
           <div className="flex justify-center">
-            <text className="text-white text-center font-semibold lg:text-7xl w-[100%] lg:relative left-[56px] mt-9">
+            <text className="text-white text-center font-semibold text-3xl sm:text-4xl md:text-4xl lg:text-6xl w-[100%] lg:relative  mt-9">
               Madina House CRM -<br /> Empowering Muslim Community
             </text>
           </div>
           <div className="flex justify-center">
-            <p className="text-center relative left-4 justify-items-center text-white mt-5 lg:text-2xl w-[70%]">
+            <p className="text-center relative  justify-items-center text-white mt-5 lg:text-2xl w-[70%]">
               Strengthening muslim communities through one platform. We invite
               you to join us in this digital journey to strengthen our community
               and foster spiritual growth
             </p>
           </div>
-          <div className="flex flex-col lg:flex-row justify-center relative top-40">
+          <div className="flex flex-row justify-center relative top-40 ">
             <button
               type="button"
-              className="animate-pulse hover:animate-none shadow-2xl shadow-[#D3C00D] text-white bg-[#D3C00D] hover:bg-[#D3C00D] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#D3C00D] dark:focus:ring-[#D3C00D]"
+              className="animate-pulse hover:animate-none shadow-2xl shadow-[#D3C00D] text-white bg-[#D3C00D] hover:bg-[#D3C00D] focus:ring-4 focus:outline-none font-medium rounded-lg text-xs sm:text-sm px-1.5 sm:px-5 py-0 sm:py-2.5 text-center inline-flex items-center dark:hover:bg-[#D3C00D] dark:focus:ring-[#D3C00D]"
             >
               Start A Free Trail
               <svg
@@ -53,7 +53,7 @@ const Home = () => {
 
             <button
               type="button"
-              className="mt-3 animate-bounce lg:relative left-6 shadow-[#D3C00D] text-[#D3C00D] border border-yellow-400 hover:text-[#fefff5] hover:border-[#dbeb63] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#D3C00D]"
+              className="mt-3  animate-bounce lg:relative left-6 shadow-[#D3C00D] text-[#D3C00D] border border-yellow-400 hover:text-[#fefff5] hover:border-[#dbeb63] focus:ring-4 focus:outline-none font-medium rounded-lg text-xs sm:text-sm px-2 sm:px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#D3C00D]"
             >
               Learn About Madina House
             </button>

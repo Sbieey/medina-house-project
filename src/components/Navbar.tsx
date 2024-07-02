@@ -60,11 +60,10 @@ const Navbar = () => {
               </button>
             </div>
             <div
-              className={`${
-                mobileOpen
-                  ? "flex bg-green-50 shadow-lg absolute top-14 z-50 px-8 py-4 left-0"
-                  : "hidden"
-              } justify-between items-center w-full lg:flex lg:w-auto lg:order-1`}
+              className={`${mobileOpen
+                ? "flex bg-green-50 shadow-lg absolute top-14 z-50 px-8 py-4 left-0"
+                : "hidden"
+                } justify-between items-center w-full lg:flex lg:w-auto lg:order-1`}
             >
               <ul className="flex w-full lg:w-auto flex-col gap-2 mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 {navLinks.map((link) => (

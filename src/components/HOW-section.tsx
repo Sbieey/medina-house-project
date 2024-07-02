@@ -71,8 +71,8 @@ const HOWsection = () => {
         </div>
       </div> */}
 
-      <div className="h-auto w-auto bg-white justify-center mb-5">
-        <div className="flex flex-col lg:flex-row-reverse justify-center lg:justify-start">
+      <div className="h-auto w-auto bg-white justify-center mb-5 pt-20">
+        <div className="flex flex-col lg:flex-row-reverse justify-center">
           <div className="bg-[#D3C00D] mt-10 lg:mt-20 w-full lg:w-auto h-[551px] lg:h-auto rounded-2xl flex justify-center items-center">
             <img
               src={HOW}
@@ -80,7 +80,7 @@ const HOWsection = () => {
               className="max-w-full max-h-full"
             />
           </div>
-          <div className="ml-0 lg:ml-32 px-10 mt-10 lg:mt-52 w-full lg:w-[700px]">
+          <div className="ml-0 px-10 mt-10 lg:mt-52 w-full lg:w-[550px]">
             <h1 className="uppercase text-[#019147] text-2xl lg:text-3xl font-bold">
               House of Wisdom
             </h1>
@@ -121,7 +121,7 @@ const HOWsection = () => {
         <div className="flex justify-center mt-10 lg:mt-32">
           <button
             type="button"
-            className="py-4 mt-8 mb-5 lg:mb-0 shadow-2xl text-white bg-[#389740] hover:bg-[#366d2e] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-10 text-center inline-flex items-center dark:hover:bg-[#45803c] dark:focus:ring-[#6dd30d]"
+            className="py-4 mt-8 mb-5 lg:mb-0 shadow-2xl text-white bg-[#389740] hover:bg-[#366d2e] focus:ring-4 focus:outline-none font-medium rounded-lg text-lg px-10 text-center inline-flex items-center dark:hover:bg-[#45803c] dark:focus:ring-[#6dd30d]"
           >
             View All
             <svg
