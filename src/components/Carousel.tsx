@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 import testimony from "../assets/testimony1.png";
 // import HOJ from "../assets/HOJ.png";
@@ -9,7 +8,9 @@ const MyCarousel = () => {
   const slides = [
     {
       id: 1,
-      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+
+      ,
       image: testimony,
     },
     {
@@ -53,7 +54,7 @@ const MyCarousel = () => {
   };
 
   return (
-    <div>
+    <div className="w-full overflow-hidden">
       <Slider {...settings}>
         {slides.map((slide) => (
           <div
@@ -66,13 +67,13 @@ const MyCarousel = () => {
               <div className="relative h-[300px]  sm:items-center overflow-hidden rounded-lg md:h-96 lg:w-1/2 w-full">
                 <img
                   src={slide.image}
-                  className="absolute md:ml-[100px] lg:ml-[100px] w-[200] h-full object-cover top-0 left-0"
+                  className="absolute left-1/2 transform -translate-x-1/2 w-auto h-full object-cover top-0 "
                   alt="Slide Image"
                 />
               </div>
-              <div className=" p-4 bg-opacity-50 p-4 lg:w-1/3 w-full">
+              <div className="bg-opacity-50 p-4 lg:w-1/3 w-full">
                 <h1
-                  className="text-8xl relative bottom-10 lg:right-10"
+                  className="text-8xl relative bottom-8 font-bold lg:right-10"
                   style={{ fontFamily: "Racing Sans One" }}
                 >
                   “

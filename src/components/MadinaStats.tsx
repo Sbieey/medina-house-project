@@ -23,11 +23,11 @@ const stats = [
 const MadinaStats = () => {
   return (
     <>
-      <div className="bg-[#D3C00D] py-10 lg:py-28 mt-10 lg:mt-32">
+      <div className="bg-[#D3C00D] pb-10 pt-16  lg:pb-28 mt-1 lg:mt-32">
         <h1 className="capitalize text-white font-bold text-center text-2xl lg:text-3xl">
           madina house CRM worldwide
         </h1>
-        <h2 className="capitalize text-white text-center text-xl">
+        <h2 className="capitalize py-5  text-white text-center text-xl">
           Efficient Management and Community Engagement
         </h2>
 
@@ -35,18 +35,19 @@ const MadinaStats = () => {
           {stats.map((stat, index) => (
             <div
               key={index}
-              className="flex py-5 lg:py-10 px-5 lg:px-10 h-[150px] max-w-lg sm:h-[200px] sm:justify-center md:max-w-xs lg:max-w-sm p-6 ml-3 lg:ml-7 mr-3 lg:mr-7 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-[#019147] dark:border-[#019147] dark:hover:bg-gray-700"
+              className="flex py-5 lg:py-10 px-5 lg:px-10 h-[150px] max-w-lg sm:h-[180px] sm:justify-center md:max-w-xs lg:max-w-sm p-6 ml-3 lg:ml-7 mr-3 lg:mr-7 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-[#019147] dark:border-[#019147] dark:hover:bg-gray-700"
             >
               <img
                 src={stat.icon}
                 alt={stat.place}
-                className="h-auto w-full lg:h-16 lg:w-16"
+                className="w-10 lg:h-16 lg:w-16 object-contain"
+
               />
-              <div className="lg:ml-5">
-                <h5 className="mb-1 text-2xl lg:text-4xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <div className="lg:ml-5 px-5 pt-7 lg:pt-0   ">
+                <h5 className=" text-2xl lg:text-4xl font-bold tracking-tight text-gray-900 dark:text-white">
                   {stat.counts}
                 </h5>
-                <h5 className="uppercase mb-1 text-lg lg:text-3xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="uppercase mb-1 text-lg lg:text-3xl tracking-tight text-gray-900 dark:text-white">
                   {stat.place}
                 </h5>
               </div>

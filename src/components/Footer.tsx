@@ -1,9 +1,8 @@
-import React from "react";
 
 const Footer = () => {
   return (
     <>
-      <footer className="bg-white dark:bg-[#019147]">
+      <footer className="bg-white dark:bg-[#017439]">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex ml-5 md:justify-between">
             <div className="mb-6 md:mb-0">
@@ -22,12 +21,13 @@ const Footer = () => {
                 JOIN US
               </button>
             </div>
-            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+
+            <div className="grid grid-cols-2  sm:gap-6 md:grid-cols-3 lg:grid-cols-5">
               <div>
-                {/* <h2 className="mb-6 text-sm font-semibold text-white-900 uppercase dark:text-white">
-                  HOME
-                </h2> */}
-                <ul className="text-white text-white-400 font-medium">
+                <h2 className="mb-6  text-sm font-semibold uppercase dark:text-[#D3C00D]">
+                  Company
+                </h2>
+                <ul className="text-white text-white-400 font-medium leading-9">
                   <li className="">
                     <a href="https://flowbite.com/" className="hover:underline">
                       HOME
@@ -54,35 +54,22 @@ const Footer = () => {
                       Contact us
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="https://tailwindcss.com/"
-                      className="hover:underline"
-                    >
-                      News & Updates
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://tailwindcss.com/"
-                      className="hover:underline"
-                    >
-                      Departments
-                    </a>
-                  </li>
+
+
                 </ul>
               </div>
+
               <div>
-                {/* <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                  Departments
-                </h2> */}
-                <ul className="text-white  font-medium">
+                <h2 className="mb-6  text-sm font-semibold uppercase dark:text-[#D3C00D]">
+                  Products
+                </h2>
+                <ul className="text-white  font-medium leading-9">
                   <li className="">
                     <a
                       href="https://github.com/themesberg/flowbite"
                       className="hover:underline "
                     >
-                      HOUSE OF WISDOM
+                      House of Wisdom
                     </a>
                   </li>
                   <li>
@@ -90,7 +77,7 @@ const Footer = () => {
                       href="https://discord.gg/4eeurUVvTy"
                       className="hover:underline"
                     >
-                      HOUSE OF JUSTICE
+                      House of Justice
                     </a>
                   </li>
                   <li>
@@ -98,7 +85,7 @@ const Footer = () => {
                       href="https://discord.gg/4eeurUVvTy"
                       className="hover:underline"
                     >
-                      HOUSE OF WEALTH
+                      Houce of Wealth
                     </a>
                   </li>
                   <li>
@@ -106,7 +93,7 @@ const Footer = () => {
                       href="https://discord.gg/4eeurUVvTy"
                       className="hover:underline"
                     >
-                      HOUSE OF TRADE
+                      House of Trade
                     </a>
                   </li>
                   <li>
@@ -114,7 +101,7 @@ const Footer = () => {
                       href="https://discord.gg/4eeurUVvTy"
                       className="hover:underline"
                     >
-                      HOUSE OF DIPLOMACY
+                      House of Diplomacy
                     </a>
                   </li>
                   <li>
@@ -122,11 +109,118 @@ const Footer = () => {
                       href="https://discord.gg/4eeurUVvTy"
                       className="hover:underline"
                     >
-                      HOUSE OF GIVING
+                      House of Giving
                     </a>
                   </li>
                 </ul>
               </div>
+
+              <div>
+                <h2 className="mb-6  text-sm font-semibold uppercase dark:text-[#D3C00D]">
+                  Resources
+                </h2>
+                <ul className="text-white  font-medium leading-9">
+                  <li className="">
+                    <a
+                      href="https://github.com/themesberg/flowbite"
+                      className="hover:underline "
+                    >
+                      Blog
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://discord.gg/4eeurUVvTy"
+                      className="hover:underline"
+                    >
+                      Newsletter
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://discord.gg/4eeurUVvTy"
+                      className="hover:underline"
+                    >
+                      Events
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://discord.gg/4eeurUVvTy"
+                      className="hover:underline"
+                    >
+                      Help center
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+
+              <div>
+                <h2 className="mb-6  text-sm font-semibold uppercase dark:text-[#D3C00D]">
+                  Socials
+                </h2>
+                <ul className="text-white  font-medium leading-9">
+                  <li className="">
+                    <a
+                      href="https://github.com/themesberg/flowbite"
+                      className="hover:underline "
+                    >
+                      Twitter
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://discord.gg/4eeurUVvTy"
+                      className="hover:underline"
+                    >
+                      Facebook
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://discord.gg/4eeurUVvTy"
+                      className="hover:underline"
+                    >
+                      Linkedin
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+
+              <div>
+                <h2 className="mb-6  text-sm font-semibold uppercase dark:text-[#D3C00D]">
+                  Legal
+                </h2>
+                <ul className="text-white  font-medium leading-9">
+                  <li className="">
+                    <a
+                      href="https://github.com/themesberg/flowbite"
+                      className="hover:underline "
+                    >
+                      Terms
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://discord.gg/4eeurUVvTy"
+                      className="hover:underline"
+                    >
+                      Privacy
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://discord.gg/4eeurUVvTy"
+                      className="hover:underline"
+                    >
+                      Cookies
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
               {/* <div>
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                   Legal
@@ -147,14 +241,16 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#004E26] h-[5vh] sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+
+
+        <div className="bg-[#004E26] h-[14vh] sm:flex sm:items-center sm:justify-between px-20">
+          <span className="text-sm text-gray-300 sm:text-center dark:text-gray-200">
             © copyright to Madina House 2023
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              className="text-gray-300 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
                 className="w-4 h-4"
@@ -173,7 +269,7 @@ const Footer = () => {
             </a>
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+              className="text-gray-300 hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <svg
                 className="w-4 h-4"
@@ -188,7 +284,7 @@ const Footer = () => {
             </a>
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+              className="text-gray-300 hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <svg
                 className="w-4 h-4"
@@ -207,7 +303,7 @@ const Footer = () => {
             </a>
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+              className="text-gray-300 hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <svg
                 className="w-4 h-4"
@@ -226,7 +322,7 @@ const Footer = () => {
             </a>
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+              className="text-gray-300 hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <svg
                 className="w-4 h-4"

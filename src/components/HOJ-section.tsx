@@ -4,14 +4,14 @@ const HOJsection = () => {
   return (
     <>
       <div className="h-auto w-auto flex-col lg:flex-row flex bg-[#FBFBFB] justify-center">
-        <div className="bg-[#D3C00D] mt-10 lg:mt-36 w-full lg:w-[542px] h-[551px] lg:h-auto rounded-2xl flex justify-center items-center">
+        <div className="bg-[#D3C00D] mt-10 ms-0  lg:mt-36 w-full lg:w-[542px] h-[551px] lg:h-auto rounded-2xl flex justify-center items-center">
           <img
             src={HOJ}
             alt="House of Justice"
             className="max-w-full max-h-full"
           />
         </div>
-        <div className="ml-0 lg:ml-64 px-10  mt-10 lg:mt-64 w-full lg:w-[400px]">
+        <div className="ml-0 px-10  lg:ml-24  mt-10 lg:mt-64 w-full lg:w-[500px]">
           <h1 className="uppercase text-[#019147] text-2xl lg:text-3xl font-bold">
             House of Justice
           </h1>

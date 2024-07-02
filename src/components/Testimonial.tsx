@@ -4,7 +4,7 @@ const Testimonial = () => {
   return (
     <>
       <div className="h-auto w-[auto] ">
-        <h1 className="text-center text-4xl font-bold mt-24 mb-8">
+        <h1 className="text-center text-4xl font-bold mt-24 mb-6">
           Testimonials
         </h1>
         <h2 className="text-center text-2xl">
