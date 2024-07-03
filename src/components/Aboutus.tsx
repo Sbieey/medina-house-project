@@ -1,7 +1,7 @@
 const AboutUs = () => {
   return (
     <>
-      <div id="ABOUT US" className="bg-white h-[100vh]  lg:h-[80vh] mb-10">
+      <div id="ABOUT US" className="bg-white h-[60vh] mb-10 lg:mb-0  lg:h-[60vh] xl:h-[70vh] xl:mb-10 ">
         <h1 className="text-[#019147] capitalize mt-16 lg:mt-36 font-bold text-2xl lg:text-3xl relative top-5 text-center">
           About Madina House CRM
         </h1>

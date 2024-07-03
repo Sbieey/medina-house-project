@@ -54,7 +54,7 @@ const MyCarousel = () => {
   };
 
   return (
-    <div className="w-full overflow-hidden">
+    <div className="w-full overflow-x-hidden pb-10">
       <Slider {...settings}>
         {slides.map((slide) => (
           <div
