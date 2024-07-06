@@ -243,11 +243,11 @@ const Footer = () => {
         </div>
 
 
-        <div className="bg-[#004E26] h-[14vh] sm:flex sm:items-center sm:justify-between px-20">
-          <span className="text-sm text-gray-300 sm:text-center dark:text-gray-200">
+        <div className="bg-[#004E26] h-[14vh]   sm:flex sm:items-center sm:justify-between px-20">
+          <span className="text-sm flex pt-10 sm:py-0 justify-center text-gray-300  text-center dark:text-gray-200">
             © copyright to Madina House 2023
           </span>
-          <div className="flex mt-4 sm:justify-center sm:mt-0">
+          <div className="flex mt-4 justify-center sm:mt-0">
             <a
               href="#"
               className="text-gray-300 hover:text-gray-900 dark:hover:text-white"
@@ -267,6 +267,7 @@ const Footer = () => {
               </svg>
               <span className="sr-only">Facebook page</span>
             </a>
+
             <a
               href="#"
               className="text-gray-300 hover:text-gray-900 dark:hover:text-white ms-5"
@@ -282,6 +283,7 @@ const Footer = () => {
               </svg>
               <span className="sr-only">Discord community</span>
             </a>
+
             <a
               href="#"
               className="text-gray-300 hover:text-gray-900 dark:hover:text-white ms-5"
@@ -301,6 +303,7 @@ const Footer = () => {
               </svg>
               <span className="sr-only">Twitter page</span>
             </a>
+
             <a
               href="#"
               className="text-gray-300 hover:text-gray-900 dark:hover:text-white ms-5"
@@ -320,6 +323,7 @@ const Footer = () => {
               </svg>
               <span className="sr-only">GitHub account</span>
             </a>
+
             <a
               href="#"
               className="text-gray-300 hover:text-gray-900 dark:hover:text-white ms-5"

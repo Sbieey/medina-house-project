@@ -27,7 +27,10 @@ export const Contactus = () => {
             />
           </div>
           <div className="flex justify-center mt-6 lg:mt-8">
-            <textarea className="w-full bg-[#004E26] lg:w-[100%] h-[200px] lg:mx-[50px] lg:h-[400px] rounded-3xl p-4 lg:p-6" placeholder="Type Your Message Here..."></textarea>
+            <textarea
+              className="bg-[#004E26] rounded-3xl p-4 lg:p-6 w-full lg:w-[1040px] h-[200px] lg:h-[400px]"
+              placeholder="Type Your Message Here..."
+            ></textarea>
           </div>
           <div className="flex justify-center md:justify-end lg:me-14 mt-6 lg:mt-8">
             <button
