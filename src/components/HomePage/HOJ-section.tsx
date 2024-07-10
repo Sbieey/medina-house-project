@@ -1,4 +1,4 @@
-import HOJ from "../assets/HOJ.png";
+import HOJ from "../../assets/HOJ.png";
 
 const HOJsection = () => {
   return (
