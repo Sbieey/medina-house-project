@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from "react-router-dom";
 
 const footerLinks = [
   {
@@ -13,7 +13,7 @@ const footerLinks = [
   {
     title: "Products",
     links: [
-      { name: "House of Wisdom", url: "https://github.com/themesberg/flowbite" },
+      { name: "House of Wisdom", url: "/houseofwisdom" },
       { name: "House of Justice", url: "https://discord.gg/4eeurUVvTy" },
       { name: "Houce of Wealth", url: "https://discord.gg/4eeurUVvTy" },
       { name: "House of Trade", url: "https://discord.gg/4eeurUVvTy" },
@@ -78,9 +78,9 @@ const Footer = () => {
                 <ul className="text-white font-medium leading-9">
                   {section.links.map((link, linkIndex) => (
                     <li key={linkIndex}>
-                      <a href={link.url} className="hover:underline">
+                      <Link to={link.url} className="hover:underline">
                         {link.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>

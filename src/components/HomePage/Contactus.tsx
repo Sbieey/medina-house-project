@@ -1,5 +1,4 @@
-import React from "react";
-import img from "../assets/mainBg.png";
+import img from "../../assets/mainBg.png";
 
 export const Contactus = () => {
   return (

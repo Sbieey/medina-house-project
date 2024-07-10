@@ -1,5 +1,5 @@
-import img from "../assets/mainBg.png";
-import bg from "../assets/image 3.png";
+import img from "../../assets/mainBg.png";
+import bg from "../../assets/image 3.png";
 
 const Home = () => {
   return (

@@ -1,5 +1,5 @@
 import Slider from "react-slick";
-import testimony from "../assets/testimony1.png";
+import testimony from "../../assets/testimony1.png";
 // import HOJ from "../assets/HOJ.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

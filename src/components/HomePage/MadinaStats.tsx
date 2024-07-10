@@ -1,6 +1,6 @@
-import icon1 from "../assets/Icons/icon1.png";
-import icon2 from "../assets/Icons/icon2.png";
-import icon3 from "../assets/Icons/icon3.png";
+import icon1 from "../../assets/Icons/icon1.png";
+import icon2 from "../../assets/Icons/icon2.png";
+import icon3 from "../../assets/Icons/icon3.png";
 
 const stats = [
   {
