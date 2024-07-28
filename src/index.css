@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(252, 252, 252);
+  scroll-behavior: smooth;
 }
 
 html {
@@ -11,6 +18,27 @@ html {
   scroll-padding-block: 10rem;
 }
 
+/* Fonts */
+.cinzel-decorative-regular {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 2rem;
+}
+
+.dm-sans-regular {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+
+.kumbh-sans-regular {
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "YOPQ" 300;
+}
+
+/* Homepage  */
 .slick-dots li button:before {
   font-family: 'slick';
   font-size: 14px;
@@ -30,6 +58,81 @@ html {
 
 .slick-dots li.slick-active button:before {
   opacity: 1.5;
-  color:
-    #D3C00D;
+  color: #D3C00D;
+}
+
+/* HOSUE OF WISDOM */
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.carousel-control-prev {
+  left: -20px;
+}
+
+.carousel-control-next {
+  right: -20px;
+}
+
+.HOW-bg {
+  stroke-width: 0.84px;
+  stroke: #58595F;
+  opacity: 0.6;
+  mix-blend-mode: screen;
+  position: absolute;
+  /* Ensure it doesn't affect other elements */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* HOW TEACHERS */
+/* Custom arrows styling */
+.custom-next,
+.custom-prev {
+  border-radius: 100%;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.arrows-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+.custom-prev {
+  margin-right: 10px;
+  font-size: 1.75rem;
+  z-index: 2;
+
+}
+
+.custom-next {
+  font-size: 1.75rem;
+  margin-left: 10px;
+  z-index: 2;
+}
+
+/* Educationi */
+.card-shadow {
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.06)
 }

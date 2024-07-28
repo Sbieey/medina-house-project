@@ -23,7 +23,7 @@ const stats = [
 const MadinaStats = () => {
   return (
     <>
-      <div className="bg-[#D3C00D] pb-10 pt-16  lg:pb-28 mt-1 lg:mt-32">
+      <div className="bg-customYellow pb-10 pt-16  lg:pb-28 mt-1 lg:mt-32">
         <h1 className="capitalize text-white font-bold text-center text-2xl lg:text-3xl">
           madina house CRM worldwide
         </h1>

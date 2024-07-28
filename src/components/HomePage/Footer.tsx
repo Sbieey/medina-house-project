@@ -64,7 +64,7 @@ const Footer = () => {
             <br />
             <button
               type="button"
-              className="bg-[#D3C00D] mt-4 w-full rounded p-1 text-white"
+              className="bg-customYellow mt-4 w-full rounded p-1 text-white"
             >
               JOIN US
             </button>
@@ -72,7 +72,7 @@ const Footer = () => {
           <div className="grid grid-cols-2 sm:gap-6 md:grid-cols-3 lg:grid-cols-5">
             {footerLinks.map((section, index) => (
               <div key={index}>
-                <h2 className="mb-6 text-sm font-semibold uppercase dark:text-[#D3C00D]">
+                <h2 className="mb-6 text-sm font-semibold uppercase dark:text-customYellow">
                   {section.title}
                 </h2>
                 <ul className="text-white font-medium leading-9">

@@ -3,13 +3,12 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
-
   const navLinks = [
-    { name: "HOME", url: "/" },
-    { name: "ABOUT US", url: "/about" },
-    { name: "DASHBOARD", url: "/dashboard" },
-    { name: "NEWS & UPDATES", url: "/news" },
-    { name: "CONTACT US", url: "/contact" },
+    "HOME",
+    "ABOUT US",
+    "DASHBOARD",
+    "NEWS & UPDATES",
+    "CONTACT US",
   ];
 
   return (
@@ -71,9 +70,9 @@ const Navbar = () => {
               <ul className="flex w-full lg:w-auto flex-col gap-2 mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 {navLinks.map((link, linkIndex) => (
                   <li key={linkIndex} className="flex py-2 pr-4 pl-3 text-black font-500 w-full lg:w-auto rounded bg-gray-100 lg:bg-transparent lg:p-0">
-                    <Link to={link.url} className="hover:underline">
-                      {link.name}
-                    </Link>
+                    <a href={`#${link}`} className="hover:underline">
+                      {link}
+                    </a>
                   </li>
                 ))}
               </ul>
