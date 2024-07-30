@@ -5,7 +5,7 @@ const AboutUs = () => {
         <h1 className="text-[#019147] capitalize mt-16 lg:mt-36 font-bold text-2xl lg:text-3xl relative top-5 text-center">
           About Madina House CRM
         </h1>
-        <h2 className="text-[#D3C00D] capitalize font-semibold text-lg lg:text-3xl relative top-10 text-center">
+        <h2 className="text-customYellow capitalize font-semibold text-lg lg:text-3xl relative top-10 text-center">
           Efficient Management and Community Engagement
         </h2>
         <h3 className="lg:text-2xl text-lg capitalize relative top-20 text-center h-[10px]">
@@ -22,7 +22,7 @@ const AboutUs = () => {
         <div className="flex justify-center relative lg:top-96 top-96">
           <button
             type="button"
-            className="animate-pulse shadow-2xl lg:mt-10 mt-[60px] shadow-[#D3C00D] text-white bg-[#D3C00D] hover:bg-[#D3C00D] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#D3C00D] dark:focus:ring-[#D3C00D]"
+            className="animate-pulse shadow-2xl lg:mt-10 mt-[60px] shadow-customYellow text-white bg-customYellow hover:bg-customYellow focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-customYellow dark:focus:ring-customYellow"
           >
             Learn More
             <svg

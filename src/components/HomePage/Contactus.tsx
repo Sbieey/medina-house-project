@@ -35,7 +35,7 @@ export const Contactus = () => {
             <div className="w-full lg:w-[1040px] flex justify-end">
               <button
                 type="button"
-                className="bg-[#D3C00D] w-[230px] me-2 rounded-2xl p-2 sm:p-3 lg:p-4 text-white text-sm sm-text-xl tracking-wider"
+                className="bg-customYellow w-[230px] me-2 rounded-2xl p-2 sm:p-3 lg:p-4 text-white text-sm sm-text-xl tracking-wider"
               >
                 SUBMIT
               </button>
